@@ -85,7 +85,7 @@ public class AllConfig {
     private static void init(){
         //如果要多个人的话，就复制这个一遍，然后填写里面的内容。这里默认两个人,大伙应该是两个人吧（笑）
         userList.add(getUser(
-                "oYlRF6lNb9uF-sgwpMlnNOLMVV2U",//扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "oYlRF6hMxRDH7F0puS6W7ygIzMxc",//扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "靳丽盈",//咋称呼这个人
                 new BirthDay(1999,04,10,false),  //这个人的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
                 new BirthDay(2003,04,17,true), //这个人对象的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
@@ -95,7 +95,7 @@ public class AllConfig {
                 "iZvOYdmvLmGb8SvyrdnNpiJDHVhdfwRAC9DrrIPABc0"));//要给这个人发送的模板ID
 
         userList.add(getUser(
-                "oYlRF6lNb9uF-sgwpMlnNOLMVV2U",
+                "oYlRF6hMxRDH7F0puS6W7ygIzMxc",
                 "靳丽盈",
                 new BirthDay(1999,04,10,true),  //这个人的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
                 new BirthDay(2003,04,17,false), //这个人对象的生日，最后的这个true/false，如果是过公历生日就写false，如果是过农历生日写true
